@@ -6,18 +6,18 @@ This guide explains how every part of the mod works semantically and logically.
 
 ## Table of contents
 
-1. [What the mod does](Line_#24)
-2. [How PAYDAY 2 plays music, what it means for this mod](Line_#38)
-3. [Anatomy of the mod folder](Line_#70)
-4. [Boot sequence: what loads, when, and why](Line_#100)
-5. [core.lua: the coordinator](Line_#124)
-6. [definitions.lua: reading song definitions](Line_#150)
-7. [layers.lua: the mixer](Line_#177)
-8. [The six conditions](Line_#218)
-9. [Note on effects.lua](Line_#232)
-10. [The hook files](Line_#243)
-11. [Options menu and localization](Line_#253)
-12. [Known limitations (v1)](Line_#260)
+1. [What the mod does](#1-what-the-mod-does)
+2. [How PAYDAY 2 plays music, what it means for this mod](#2-payday-2-music-and-you)
+3. [Anatomy of the mod folder](#3-anatomy-of-the-mod-folder)
+4. [Boot sequence: what loads, when, and why](#4-boot-sequence)
+5. [core.lua: the coordinator](#5-corelua)
+6. [definitions.lua: reading song definitions](#6-definitionslua)
+7. [layers.lua: the mixer](#7-layerslua)
+8. [The six conditions](#8-the-six-conditions)
+9. [Note on effects.lua](#9-effectslua-unused-for-now)
+10. [The hook files](#10-the-hook-files)
+11. [Options menu and localization](#11-options-menu-and-localization)
+12. [Known limitations (v1)](#12-known-limitations)
 
 ---
 
