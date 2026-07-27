@@ -1,0 +1,37 @@
+{
+	"xdm_menu_title": "Extra Dynamic Music",
+	"xdm_menu_desc": "Condition-driven music layers for BeardLib and vanilla songs.",
+
+	"xdm_opt_enabled": "Enabled",
+	"xdm_opt_enabled_desc": "Master switch. Turning this off mid-heist fades all extra layers out.",
+
+	"xdm_opt_volume": "Dynamic Music Layers",
+	"xdm_opt_volume_desc": "Master volume for Extra Dynamic Music layers, on top of regular Music Volume.",
+
+	"xdm_opt_effects": "Stock effects",
+	"xdm_opt_effects_desc": "Setup for a future update: does nothing (Will eventually allow 'stock' effects to be applied to audio, saving time).",
+
+	"xdm_opt_upgrades": "Upgraded vanilla songs",
+	"xdm_opt_upgrades_desc": "Dynamic repacks of vanilla songs play in place of the originals, under the original jukebox entry. Off = always the true vanilla tracks.",
+
+	"xdm_opt_cond_disoriented": "Condition: Disoriented",
+	"xdm_opt_cond_disoriented_desc": "Plays while tased, cuffed, flashbanged or on fire.",
+
+	"xdm_opt_cond_ponr": "Condition: Point of no Return",
+	"xdm_opt_cond_ponr_desc": "Plays while the escape countdown runs.",
+
+	"xdm_opt_cond_drama": "Condition: Drama",
+	"xdm_opt_cond_drama_desc": "Plays while the hidden "drama" meter runs high.",
+
+	"xdm_opt_cond_boss": "Condition: Boss",
+	"xdm_opt_cond_boss_desc": "Plays while a SWAT turret, captain or heist boss is alive.",
+
+	"xdm_opt_cond_spotted": "Condition: Spotted",
+	"xdm_opt_cond_spotted_desc": "Plays as detection meter fills in stealth; sticks around until the witness is subdued.",
+
+	"xdm_opt_cond_endless": "Condition: Endless assault",
+	"xdm_opt_cond_endless_desc": "Plays during an endless assault.",
+
+	"xdm_opt_debug": "Debug logging",
+	"xdm_opt_debug_desc": "Verbose BLT log output for testing definitions."
+}
