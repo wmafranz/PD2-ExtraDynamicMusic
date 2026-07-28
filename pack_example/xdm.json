@@ -1,0 +1,15 @@
+{
+	"target": "track_02",
+	"layers": [
+		{ "on": "phase:control", "file": "control_bass.ogg", "sticky": true, "volume": 0.8 },
+		{ "on": "phase:assault", "file": "assault_drums.ogg", "volume": 0.8 },
+
+		{ "on": "drama", "file": "drama_pad.ogg", "follow_intensity": true },
+		{ "on": "boss", "file": "boss_brass.ogg" },
+		{ "on": "spotted", "file": "spotted_tension.ogg", "phases": ["setup", "control"] },
+		{ "on": "endless", "file": "endless_pulse.ogg" },
+
+		{ "on": "ponr", "file": "ponr_alarm.ogg", "mode": "replace", "sync": "start",
+		  "cancels": ["drama", "boss", "endless"], "fade_in": 1.0, "fade_out": 2.0 }
+	]
+}
